@@ -3,7 +3,7 @@
     "title": "NotesFlow",
     "description": "An ultra-lightweight, dynamic notes app built on Node.js/Express.js, featuring a clean Tailwind/EJS interface and innovative database-free persistence using the native fs module.",
     "image": "/images/NotesFlow.jpg",
-    "link": "https://notesflow-2.onrender.com"
+    "link": "https://notesflow-new.vercel.app/"
   },
   {
     "title": "Tic-Tac-Toe",
