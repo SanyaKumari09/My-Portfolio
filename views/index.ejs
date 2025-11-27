@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PORTFOLIO</title>
+    <link rel="stylesheet" href="/stylesheets/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Your custom animation file -->
+    <script src="/javascript/script.js"></script>
+
+    <!-- Include library -->
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <!-- Add container -->
+     <div id="particles-js" class="absolute top-0 left-0 w-full h-full -z-10"></div>
+
+     
+
+</head>
+<body class="bg-gradient-to-r from-blue-900 via-cyan-700 to-blue-500 text-white min-h-screen flex flex-col">
+    
+    <header class="p-3 flex flex-col items-center bg-gradient-to-r from-blue-800 via-cyan-600 to-blue-400">
+        <h1 class="text-5xl font-extrabold tracking-widest pt-1 pb-3 mb-2">Sanya Kumari</h1>
+        <nav class="space-x-6 pt-2 border-t border-cyan-700">
+            <a href="/" class="text-lg font-semibold text-gray-200 hover:text-cyan-300 transition-colors duration-200">Home</a>
+            <a href="#about" class="text-lg font-semibold text-gray-200 hover:text-cyan-300 transition-colors duration-200">About</a>
+            <a href="#experience" class="text-lg font-semibold text-gray-200 hover:text-cyan-300 transition-colors duration-200">Experience</a>
+            <a href="#projects" class="text-lg font-semibold text-gray-200 hover:text-cyan-300 transition-colors duration-200">Projects</a>
+            <a href="#certificates" class="text-lg font-semibold text-gray-200 hover:text-cyan-300 transition-colors duration-200">Certificates</a>
+            <a href="#contact" class="text-lg font-semibold text-gray-200 hover:text-cyan-300 transition-colors duration-200">Contact</a>
+          <a href="/Resume.pdf" download="Resume.pdf"
+             class="text-lg font-semibold text-gray-200 hover:text-cyan-300 transition-colors duration-200">
+             Download Resume</a>
+        </nav>
+    </header>
+    
+    <main class="flex flex-col flex-grow items-center pt-20 text-center px-4 animate-bg-shift">
+        <!-- Image section -->
+        <div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-8 border-4 border-pink-900 shadow-xl">
+           <img src="/images/Sanya1.jpg" alt="Sanya Kumari" class="object-cover w-full h-full">
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Sanya Kumari</h1>
+        <p class="text-xl md:text-2xl mb-2 text-gray-300">B.Tech CSE AI,ML,DL from Teerthankar Mahaveer University | UP</p>
+        <p class="text-xl md:text-2xl mb-8 text-gray-300"> Specializing in Full Stack Web Development (MERN), DSA in Java.</p>
+    
+        <!-- Contact Section -->
+         <section id="reach-out" class="flex flex-row flex-wrap justify-center gap-6 mb-8 text-gray-300 text-xl font-medium">
+          <!-- Make the number clickable -->
+           <a href="tel:+919142884478" class="flex items-center gap-2 hover:text-cyan-300 transition duration-300">
+              📞 +91-9142884478
+           </a>
+          <!-- mailto: ensures the email link works correctly and displays normally. -->
+          <a href="mailto:sanyakumari3232@gmail.com" target="_blank" class="text-grey-100 flex items-center gap-2 hover:text-cyan-300 transition duration-300">
+            📧sanyakumari3232@gmail.com
+          </a>
+          <a href="https://github.com/SanyaKumari09" target="_blank" class="text-grey-100 flex items-center gap-2 hover:text-cyan-300 transition duration-300">
+            🛠️GitHub
+          </a>
+          <a href="http://www.linkedin.com/in/sanya-kumari-a37831316" target="_blank" class="text-grey-100 flex items-center gap-2 hover:text-cyan-300 transition duration-300">
+           🔗LinkedIn
+          </a>
+        </section>
+
+
+        <!-- About Section -->
+       <section id="about" class="max-w-4xl text-center mt-14 mb-16 px-4">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">About Me</h2>
+         <p class="text-lg md:text-xl text-gray-300 leading-relaxed text-left">
+           Dedicated and detail-oriented Full Stack Web Developer specializing in the MERN stack, focused on creating dynamic, responsive, and scalable web applications. Proficient in crafting seamless user experiences and writing clean, efficient code. Alongside web development, skilled in Java and Data Structures & Algorithms, with a problem-solving mindset that drives logical and optimized solutions. I'm also interested in Artificial Intelligence and Machine Learning, exploring how they can shape smarter, more innovative web solutions.
+         </p>
+       </section>
+
+       <!-- Skills section  -->
+        <section id="skills" class="max-w-4xl w-full px-4 mt-12 mb-16 text-left">
+        <!-- <div class="max-w-4xl w-full px-4 mt-12 mb-16 text-left"> -->
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">Skills</h2>
+        <!-- Skill Badges -->
+         <div class="flex flex-wrap gap-4">
+           <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">MERN Stack</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">HTML</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">CSS</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">JavaScript</span>
+           <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Tailwind.Css</span>
+           <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Express.js</span>
+           <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">React.js</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Node.js</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Express.js</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">BootStrap</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Java</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">DSA</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">MongoDB</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Postman</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Git/Github</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">C</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">C++</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Python</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Presentation Skills</span>
+           <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Communication Skills</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Project Management</span>
+            <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300">Collaboration</span>
+            <!-- <span class="bg-white/10 text-gray-200 px-5 py-2 rounded-lg border border-white/20 shadow-sm hover:bg-white/20 hover:scale-105 transform transition duration-300"></span> -->
+         </div>
+     </section>
+
+     
+
+<!-- Experiences Section -->
+<section id="experience" class="py-16">
+  <h2 class="text-5xl text-center font-bold text-white mb-10">Experience</h2>
+  <div class="flex flex-col gap-8 max-w-4xl mx-auto">
+    <% if (experiences && experiences.length > 0) { %>
+      <% experiences.forEach(exp => { %>
+        <div class="p-6 rounded-2xl shadow-md text-white
+                    bg-gradient-to-r from-blue-900 via-cyan-700 to-blue-500
+                    animate-gradient
+                    transition-all duration-700 border border-cyan-400 
+                    hover:bg-white/20 hover:scale-105 transform duration-300">
+          <h3 class="text-2xl text-cyan-300 font-bold"><%= exp.role %> - <%= exp.company %></h3>
+          <p class="italic text-gray-300"> <%= exp.duration %></p>
+          <p class="mt-2 text-gray-200"><%= exp.description %></p>
+        </div>
+      <% }) %>
+    <% } else { %>
+      <p class="text-center text-gray-300 text-xl">No experience added yet.</p>
+    <% } %>
+  </div>
+</section>
+
+
+<!-- Project Section -->
+<section id="projects" class="py-16 mt-10">
+  <h2 class="text-5xl text-center font-bold text-white mb-10">Projects</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+    <% if (projects && projects.length > 0) { %>
+      <% projects.forEach(proj => { %>
+        <div class="p-6 rounded-2xl shadow-md text-white
+                    bg-gradient-to-r from-blue-900 via-cyan-700 to-blue-500
+                    animate-gradient
+                    transition-all duration-700 border border-cyan-400 
+                    hover:bg-white/20 hover:scale-105 transform duration-300">
+          <h3 class="text-xl font-bold mb-2"><%= proj.title %></h3>
+          <p class="text-gray-200 text-left mt-2"><%= proj.description %></p>
+          <div class="mt-4">
+            <a class="text-left text-lg font-semibold text-white hover:text-cyan-300 transition duration-300 inline-flex items-center"
+               href="<%= proj.link %>">
+              Visit Here
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      <% }) %>
+    <% } else { %>
+      <p class="text-gray-300 text-center text-xl">No projects available yet.</p>
+    <% } %>
+  </div>
+</section>
+
+
+  
+
+
+<!-- certificates Section -->
+ <section id="certificates" class="py-16 mt-10">
+  <h2 class="text-5xl text-center font-bold text-white mb-10">Certificates</h2>
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+    <% if (certificates && certificates.length > 0) { %>
+      <% certificates.forEach(certi => { %>
+        <div class="p-6 rounded-2xl shadow-xl text-white 
+                    bg-gray-900/40
+                    transition-all duration-700 border border-cyan-400 
+                    shadow-sm hover:scale-[1.05] transform duration-300">
+          <h3 class="text-lg font-semibold mb-1 text-cyan-200">
+            <%= certi.name %>
+          </h3>
+        </div>
+      <% }) %>
+    <% } else { %>
+      <p class="text-center text-gray-300 text-xl">No certificates added yet.</p>
+    <% } %>
+  </div>
+</section>
+
+            
+
+
+    <!-- Contact Me -->
+    <section id="contact" class="py-20 px-4 bg-gradient-to-r from-blue-900 via-cyan-700 to-blue-500">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-5xl text-center font-bold text-white mb-4">Contact</h2>
+        <p class="text-center text-lg text-gray-200 mb-12">
+            Have a project or a question? I'm always open to new opportunities.
+        </p>
+
+        <form action="/contact" method="POST" class="space-y-6 bg-white/10 backdrop-blur-sm p-8 rounded-xl shadow-2xl border border-white/20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div>
+                    <label for="name" class="block text-sm font-medium text-white mb-2">Name</label>
+                    <input type="text" id="name" name="name" required 
+                           class="w-full px-4 py-3 border border-gray-600 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:ring-cyan-300 focus:border-cyan-300 transition duration-150">
+                </div>
+
+                 <div>
+                    <label for="phone" class="block text-sm font-medium text-white mb-2">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" 
+                       class="w-full px-4 py-3 border border-gray-600 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:ring-cyan-300 focus:border-cyan-300 transition duration-150">
+                 </div>
+                
+                <div>
+                    <label for="email" class="block text-sm font-medium text-white mb-2">Email</label>
+                    <input type="email" id="email" name="email" required 
+                           class="w-full px-4 py-3 border border-gray-600 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:ring-cyan-300 focus:border-cyan-300 transition duration-150">
+                 </div>
+             </div>
+            <div>
+                <label for="message" class="block text-sm font-medium text-white mb-2">Message</label>
+                <textarea id="message" name="message" rows="5" required 
+                    class="w-full px-4 py-3 border border-gray-600 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:ring-cyan-300 focus:border-cyan-300 transition duration-150"
+                    placeholder="Tell me about your project or inquiry..."></textarea>
+            </div>
+            <div class="pt-4">
+                <button type="submit" 
+                class="w-full py-3 px-6 rounded-lg text-lg font-semibold 
+                    bg-cyan-400 text-gray-900 hover:bg-cyan-300 focus:outline-none focus:ring-4 focus:ring-cyan-500 focus:ring-opacity-50 
+                    transition duration-300 ease-in-out transform hover:scale-[1.01]">Send Message</button>
+            </div>
+        </form>
+    </div>
+   </section>
+     </main>
+        
+        </main>
+
+    <footer class="bg-gray-900 text-white p-4 text-center">
+       <p>&copy; <%= new Date().getFullYear() %> Sanya Kumari. Crafted With Care 🤗</p>
+   </footer>
+
+    </body>
+</html>
