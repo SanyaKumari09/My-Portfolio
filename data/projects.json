@@ -1,5 +1,11 @@
 [
   {
+    "title": "Zen-Weather",
+    "description": "A universal weather app that displays the weather of any city or country in addition with temperature, humidity, wind speed etc.  ",
+    "image": "",
+    "link": "https://zenweather-app.vercel.app/"
+  },
+  {
     "title": "NotesFlow",
     "description": "An ultra-lightweight, dynamic notes app built on Node.js/Express.js, featuring a clean Tailwind/EJS interface and innovative database-free persistence using the native fs module.",
     "image": "/images/NotesFlow.jpg",
@@ -11,5 +17,6 @@
     "image": "/images/Tic-Tac-Toe.jpg",
     "link": " https://sanyakumari09.github.io/Tic-Tac-Toe/"
   }
+  
 
 ]
